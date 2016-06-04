@@ -1,0 +1,9 @@
+RewriteEngine On # Turn on the rewriting engine 
+RewriteRule ^aboutus/  /aboutus.php [QSA,L]
+RewriteRule ^services/  /services.php [QSA,L]
+RewriteRule ^portfolio/  /portfolio.php [QSA,L]
+RewriteRule ^hire/  /hire.php [QSA,L]
+RewriteRule ^contact/  /contact.php [QSA,L]
+RewriteRule ^service/(.*)  /subservices.php?service=$1 [QSA,L]
+RewriteRule ^hires/(.*)  /subhire.php?hire=$1 [QSA,L]
+ErrorDocument 404 http://binarytechnology.co.in/404.php

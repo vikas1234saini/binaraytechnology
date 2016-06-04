@@ -1,0 +1,55 @@
+@charset "utf-8";
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, abbr, acronym, big, font, img, small, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, tbody, tfoot, thead, tr, th, td {margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent;}
+body {line-height:1;}
+ol, ul {list-style:none;}
+blockquote, q {quotes:none;}
+:focus {outline:0;}
+ins {text-decoration:none;}
+del {text-decoration:line-through;}
+table {border-collapse:collapse; border-spacing:0;}
+body{ font-family:Arial, Helvetica, sans-serif;}
+a:link, a:visited{text-decoration:none;}
+.clear{clear:both; overflow:hidden;}
+#bg{width:100%; background-color:#F1F1F1;}
+#header-bg{width:1160px; background-image:url(../images/main-bg.jpg); background-repeat:repeat-y; overflow:hidden; margin-left:auto; margin-right:auto;}
+#main-bg{width:960px; margin:auto; background-color:#F00;}
+#menu-bg{width:1160px; margin-left:auto; margin-right:auto; background:url(../images/menu-bg.jpg) no-repeat;}
+#menu{width:960px; margin-left:auto; margin-right:auto; height:72px;}
+#header{width:960px; margin-left:auto; margin-right:auto; overflow:hidden;}
+#logo{width:229px; height:97px; margin:40px 0 20px 50px;}
+#nav{width:960px;}
+#nav ul{ float:left; padding:20px 0 0 20px; width:auto; margin-top:9px; }
+#nav ul li{ display:inline; padding:0px 0 0 20px;}
+#nav ul li a{ text-decoration:none; color:#FFF;}
+#nav ul li a:hover{ color:#33C;}
+#middle-bg{width:1160px; background:url(../images/main-bg.jpg) repeat-y; overflow:hidden; margin-left:auto; margin-right:auto;}
+#middle{ width:960px; margin-left:auto; margin-right:auto;}
+#flash{width:800px; height:300px; position:absolute; margin-left:80px; background-color:#F00; }
+#flasharea{ width:960px; height:366px; position:relative;}
+#flashbg{width:960px; height:366px; margin:50px 0 0 0;  }
+#shadow{background: url(../images/shadow.jpg) no-repeat; width:960px; height:82px; position:absolute; margin-top:284px; margin-left:0; margin-right:0;}
+#middle-content{width:960px; margin-left:auto; margin-right:auto; margin-top:50px; overflow:hidden;}
+#section1{width:323px; float:left; margin-right:10px; padding-left:30px;}
+#section1-top{width:323px; height:78px; background:url(../images/service_menu.jpg) no-repeat;}
+#section1-middle{width:323px; height:300px; background:url(../images/service-menu2.jpg) repeat-y;}
+#section1-bottom{width:323px; height:15px; background:url(../images/service-menu3.jpg) no-repeat;}
+#section2{width:323px; float:left; margin-right:10px;}
+#section2-top{width:323px; height:78px; background:url(../images/service_menu.jpg) no-repeat;}
+#section2-middle{width:323px; height:300px; background:url(../images/service-menu2.jpg) repeat-y;}
+#section2-bottom{width:323px; height:15px; background:url(../images/service-menu3.jpg) no-repeat;}
+#section3{width:248px; float:left;}
+#section3-top{width:248px; height:22px; background:url(../images/section3-top.jpg) no-repeat;}
+#section3-middle{width:248px; height:300px; background:url(../images/section3-middle.jpg) repeat-y;}
+#section3-bottom{width:248px; height:17px; background:url(../images/section3-botom.jpg) no-repeat;}
+#footer-bg{width:1160px; height:95px; background:url(../images/footer-bg.jpg) no-repeat; margin-left:auto; margin-right:auto;}
+#footer{ width:950px;}
+
+.arrowlistmenu{ width: 256px; }
+.arrowlistmenu .menuheader{ 
+font: bold 14px Arial; color: white; background: url(../images/titlebar.png) repeat-x center left; margin-bottom: 2px; /*bottom spacing between header and rest of content*/ text-transform: uppercase; padding: 1px 0 0 10px;  cursor: hand; height:37px; line-height:45px; cursor: pointer; }
+.arrowlistmenu .openheader{  background-image: url(../images/titlebar-active.png); }
+.arrowlistmenu ul{ list-style-type: none; margin: 0; padding: 0; margin-bottom: 2px;  }
+.arrowlistmenu ul li{ padding-bottom: 2px;  }
+.arrowlistmenu ul li a{ color: #A70303; background: url(../images/arrowbullet.png) no-repeat center left;  display: block; padding-left: 19px;  text-decoration: none; font-weight: bold; font-size: 90%; }
+.arrowlistmenu ul li a:visited{ color: #A70303; }
+.arrowlistmenu ul li a:hover{  color: #A70303; background-color: #F3F3F3; }
